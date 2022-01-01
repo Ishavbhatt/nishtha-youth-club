@@ -72,11 +72,11 @@ html {
   align-items: center;
   justify-content: space-between;
 }
-.navbar .logo a {
+/* .navbar .logo a {
   font-size: 30px;
   font-weight: 500;
   letter-spacing: 0.5px;
-}
+} */
 .logo-img {
   width: 250px;
   height: 80px;
@@ -299,11 +299,12 @@ section .title::after {
 }
 
 /* Program Css */
-.events-grid {
+.events-grid, .footer-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
   grid-gap: 40px;
   align-items: stretch;
+  justify-items: center;
 }
 
 .events-grid > article {
@@ -490,8 +491,15 @@ hr.hr-1 {
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .navbar .logo a {
-    font-size: 20px;
+  .logo-img {
+    width: 120px;
+    height: 70px;
+  }
+  .ftr-para{
+    text-align: center;
+  }
+  .footer-heading {
+    text-align: center;
   }
   .left {
     text-align: center;
@@ -503,7 +511,6 @@ hr.hr-1 {
   }
   .navbar .logo a {
     font-size: 20px;
-    color: black;
   }
   .left {
     text-align: center;
